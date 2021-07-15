@@ -51,16 +51,30 @@ h1{
  /* Features */
 
  #features{
+   padding: 7% 15%;
    text-align: center;
-   margin: 6rem auto 0;
  }
 
  .features-icon{
-   font-size: 3rem;
+   margin-bottom: 1rem;
+   font-size: 4rem;
    color: #EF8172;
  }
 
  .features-icon:hover{
    transform: scale(1.1);
    color: #FF4C68;
+ }
+
+ .features-h3{
+   font-size: 1.5rem;
+   font-weight: bolder;
+ }
+
+ .features-desc{
+   color: #8f8f8f;
+ }
+
+ .feature-box{
+   padding: 5%;
  }
