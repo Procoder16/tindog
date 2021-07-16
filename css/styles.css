@@ -89,8 +89,38 @@ h2{
  /* Testimonials */
 
  #testimonials{
-   padding: 7% 15%;
    text-align: center;
    background-color: #EF8172;
    color: #fff;
+ }
+
+ .carousel-item{
+  padding: 7% 15%;
+ }
+
+ .testimonial-image{
+   width: 15%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+ #press{
+   background-color: #EF8172;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+
+ .press-logo{
+   width: 15%;
+   margin: 0 30px;
+ }
+
+ /* Pricing section */
+
+ #pricing{
+   padding: 0 10px 10px;
+ }
+
+ .card{
+   margin: 0 20px;
  }
