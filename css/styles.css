@@ -58,6 +58,7 @@ h2{
  /* Features */
 
  #features{
+   background-color: white;
    padding: 7% 15%;
    text-align: center;
  }
@@ -118,9 +119,9 @@ h2{
  /* Pricing section */
 
  #pricing{
-   padding: 0 10px 10px;
+   padding: 100px;
  }
 
- .card{
-   margin: 0 20px;
+ .pricing-column{
+   padding: 3% 2%;
  }
