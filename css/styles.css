@@ -16,6 +16,7 @@ body{
   transform: rotate(25deg);
 }
 
+
 h1{
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
@@ -124,4 +125,25 @@ h2{
 
  .pricing-column{
    padding: 3% 2%;
+ }
+
+/* Call To Action Section */
+
+#cta{
+  background-color: #ff4c68;
+}
+
+
+ /* Media Query */
+
+
+ @media (max-width:1036px) {
+
+    #title{
+      text-align: center;
+    }
+
+   .iphone{
+     transform: rotate(0);
+   }
  }
