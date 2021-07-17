@@ -56,6 +56,10 @@ h2{
    margin: 5% 3% 5% 0;
  }
 
+ .download-button:hover{
+   transform: scale(1.02);
+ }
+
  /* Features */
 
  #features{
@@ -120,7 +124,7 @@ h2{
  /* Pricing section */
 
  #pricing{
-   padding: 100px;
+   padding: 80px;
  }
 
  .pricing-column{
@@ -131,6 +135,43 @@ h2{
 
 #cta{
   background-color: #ff4c68;
+  padding: 80px 200px;
+  text-align: center;
+}
+
+.cta-h3{
+  font-family: "Montserrat";
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.cta-btn{
+  margin: 0 20px;
+}
+
+.cta-btn:hover{
+  transform: scale(1.02);
+}
+
+/* Footer Section */
+
+#footer{
+  text-align: center;
+  margin: 4rem auto 4rem auto;
+}
+
+.fab-i{
+  margin: 10px;
+}
+
+.fab-i:hover{
+  transform: scale(1.2);
+}
+
+.footer-icons{
+  margin-bottom: 10px;
 }
 
 
